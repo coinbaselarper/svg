@@ -7,7 +7,7 @@
         
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="./branding/lucide.png" />
+    <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/lucideproxy/svg@main/branding/lucide.png" />
     <title>Lucide</title>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-0VL3ZSBXDH"></script>
     <script>
@@ -17,13 +17,22 @@
       gtag("config", "G-0VL3ZSBXDH");
     </script>
     <script async="async" src="https://c.vipersfutbol.com/script.js"></script>
-    <script src="4eo45/cexov4.js"></script>
-    <script src="f7757/pp4bkv.js"></script>
-    <script crossorigin="anonymous">(function(){import("./assets/index-CKlslWf3-12d160a6.js");})();</script>
-    <link rel="modulepreload" crossorigin="anonymous" href="./assets/react-CKawGOZZ-12d160a6.js" />
-    <link rel="modulepreload" crossorigin="anonymous" href="./assets/motion-ClYBgd9J-12d160a6.js" />
-    <link rel="stylesheet" crossorigin="anonymous" href="./assets/index-9p5Srx0F-12d160a6.css" />
-  
+    <script src="ua1nu/4q6xeu.js"></script>
+    <script src="law85/cj5asz.js"></script>
+    <script crossorigin="anonymous">(function(){import("./assets/index-tK56Ff1U-53c561f6.js");})();</script>
+    <link rel="modulepreload" crossorigin="anonymous" href="./assets/react-CKawGOZZ-53c561f6.js" />
+    <link rel="modulepreload" crossorigin="anonymous" href="./assets/motion-ClYBgd9J-53c561f6.js" />
+    <link rel="stylesheet" crossorigin="anonymous" href="./assets/index-CcwNKRVT-53c561f6.css" />
+  <script data-lucide="cdn-favicon-fallback">
+(function(){
+  var link=document.querySelector('link[rel="icon"]');
+  if(!link)return;
+  var img=new Image();
+  img.onerror=function(){link.href=new URL("branding/lucide.png", document.baseURI).href;};
+  img.src=link.href;
+})();
+</script>
+
       </head>
       <body>
     <div id="root"></div>

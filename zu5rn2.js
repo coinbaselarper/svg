@@ -1,10 +1,10 @@
-importScripts("f7757/8g3hhv.js");
+importScripts("law85/rimdtn.js");
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
 
 self.addEventListener("fetch", (event) => {
-  if (_xvfall1.shouldRoute(event)) {
-    event.respondWith(_xvfall1.route(event));
+  if (_zk5yjsp.shouldRoute(event)) {
+    event.respondWith(_zk5yjsp.route(event));
   }
 });
