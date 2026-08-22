@@ -1,4 +1,4 @@
-importScripts("pgrw8/iqo4to.js");
+importScripts("0covt/txpulm.js");
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
@@ -14,7 +14,7 @@ function skipProxy(url) {
 
 self.addEventListener("fetch", (event) => {
   if (skipProxy(event.request.url)) return;
-  if (_swfgrdx.shouldRoute(event)) {
-    event.respondWith(_swfgrdx.route(event));
+  if (_r7daqro.shouldRoute(event)) {
+    event.respondWith(_r7daqro.route(event));
   }
 });
