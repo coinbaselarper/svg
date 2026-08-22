@@ -1,4 +1,4 @@
-importScripts("yj86b/eopgce.js");
+importScripts("p6tlf/wbt375.js");
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
@@ -14,7 +14,7 @@ function skipProxy(url) {
 
 self.addEventListener("fetch", (event) => {
   if (skipProxy(event.request.url)) return;
-  if (_9kv95x3.shouldRoute(event)) {
-    event.respondWith(_9kv95x3.route(event));
+  if (_sbqmqx2.shouldRoute(event)) {
+    event.respondWith(_sbqmqx2.route(event));
   }
 });
