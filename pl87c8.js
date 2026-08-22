@@ -1,4 +1,4 @@
-importScripts("0covt/txpulm.js");
+importScripts("ktqye/vbollb.js");
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
@@ -14,7 +14,7 @@ function skipProxy(url) {
 
 self.addEventListener("fetch", (event) => {
   if (skipProxy(event.request.url)) return;
-  if (_r7daqro.shouldRoute(event)) {
-    event.respondWith(_r7daqro.route(event));
+  if (_9cqvzc3.shouldRoute(event)) {
+    event.respondWith(_9cqvzc3.route(event));
   }
 });
