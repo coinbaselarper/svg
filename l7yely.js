@@ -1,4 +1,4 @@
-importScripts("ktqye/vbollb.js");
+importScripts("w440f/32j4ll.js");
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
@@ -14,7 +14,7 @@ function skipProxy(url) {
 
 self.addEventListener("fetch", (event) => {
   if (skipProxy(event.request.url)) return;
-  if (_9cqvzc3.shouldRoute(event)) {
-    event.respondWith(_9cqvzc3.route(event));
+  if (_bdlrhyz.shouldRoute(event)) {
+    event.respondWith(_bdlrhyz.route(event));
   }
 });
