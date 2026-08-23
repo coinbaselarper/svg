@@ -1,4 +1,4 @@
-importScripts("jjft2/1fpdp3.js");
+importScripts("bdpgz/dxi9ax.js");
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
@@ -14,7 +14,7 @@ function skipProxy(url) {
 
 self.addEventListener("fetch", (event) => {
   if (skipProxy(event.request.url)) return;
-  if (_h7zsyw8.shouldRoute(event)) {
-    event.respondWith(_h7zsyw8.route(event));
+  if (_bby6dbo.shouldRoute(event)) {
+    event.respondWith(_bby6dbo.route(event));
   }
 });
