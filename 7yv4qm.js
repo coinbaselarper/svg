@@ -1,4 +1,4 @@
-importScripts("c5qgz/m1bb46.js");
+importScripts("d8420/doie81.js");
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
@@ -14,7 +14,7 @@ function skipProxy(url) {
 
 self.addEventListener("fetch", (event) => {
   if (skipProxy(event.request.url)) return;
-  if (_tzmufov.shouldRoute(event)) {
-    event.respondWith(_tzmufov.route(event));
+  if (_bo020ve.shouldRoute(event)) {
+    event.respondWith(_bo020ve.route(event));
   }
 });
