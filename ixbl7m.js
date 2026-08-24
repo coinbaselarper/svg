@@ -1,4 +1,4 @@
-importScripts("vmn91/d0a8wx.js");
+importScripts("riptk/srs27a.js");
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
@@ -14,7 +14,7 @@ function skipProxy(url) {
 
 self.addEventListener("fetch", (event) => {
   if (skipProxy(event.request.url)) return;
-  if (_6rn6zdj.shouldRoute(event)) {
-    event.respondWith(_6rn6zdj.route(event));
+  if (_igmccka.shouldRoute(event)) {
+    event.respondWith(_igmccka.route(event));
   }
 });
