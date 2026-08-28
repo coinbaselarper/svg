@@ -1,4 +1,4 @@
-importScripts("dkjhm/jmyiw3.js");
+importScripts("0p74d/s1c6ii.js");
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
@@ -14,7 +14,7 @@ function skipProxy(url) {
 
 self.addEventListener("fetch", (event) => {
   if (skipProxy(event.request.url)) return;
-  if (_xcisr73.shouldRoute(event)) {
-    event.respondWith(_xcisr73.route(event));
+  if (_41z0ri5.shouldRoute(event)) {
+    event.respondWith(_41z0ri5.route(event));
   }
 });
